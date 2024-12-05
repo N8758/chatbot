@@ -1,0 +1,22 @@
+.settings {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.settings label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.settings select, .settings input[type="color"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}

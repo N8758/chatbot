@@ -1,0 +1,96 @@
+.center {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .search-section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-section input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .trending-section {
+    width: 80%;
+  }
+  
+  .trending-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .trending-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trending-section ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trending-section ul li:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .faq-section {
+    width: 80%;
+  }
+  
+  .faq-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-section details {
+    margin-bottom: 10px;
+  }
+  
+  .faq-section details summary {
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .faq-section details summary:hover {
+    color: #4caf50;
+  }
+  
+  .faq-section details p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
